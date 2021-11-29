@@ -9,8 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top:max(30px );
-  margin-left: max(20px);
+
 }
 
 .img_button{
@@ -34,7 +33,9 @@
   background-color: #000;
   width: 50%;
   height: 100%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .botoes{

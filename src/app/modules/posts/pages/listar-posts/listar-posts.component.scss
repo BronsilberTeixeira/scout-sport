@@ -2,10 +2,22 @@
   background-color: #000;
   color: #fff;
   height: 80px;
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .logo_preto{
   height: 80%;
   width: 20%;
-  margin-left: 3%;
+  
+}
+
+.nav-item{
+  font-size: 30px;
+  margin-left: 15%;
+}
+
+.nav-label{
+  color: #fff;
 }
