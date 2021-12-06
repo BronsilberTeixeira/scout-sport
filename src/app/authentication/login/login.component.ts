@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
 
   logar(){
     this.formLogin.value;
-    this.router.navigate(['listarPosts']);
+    this.router.navigate(['criarPost']);
   }
 
 }

@@ -46,8 +46,32 @@
 }
 
 .mostrar-post{
+  display: flex;
+    align-items: center;
+    align-content: space-around;
   height: 450px;
   width: 450px;
   background-color: rgb(228, 228, 228);
   border-radius: 10px;
+}
+
+.botao_image{
+  // display: flex;
+  // flex-direction: column;
+  margin-left: 20%;
+}
+.upload_img{
+  width: 270px;
+  height: 50%;
+  border: 10px;
+}
+
+.enviar_imagem{
+  background-color: #000;
+  color: #fff;
+  width: 270px;
+  height: 50px;
+  border-color: none;
+  border-radius: 20px;
+  margin-top: 10%;
 }
